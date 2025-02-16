@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fracscore"
+version = "0.1.0"
+description = "Calculates the fracscore based on the holder balance and loyalty"
+authors = ["crjameson <93468664+crjameson@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+numpy = "^2.2.3"
+pandas = "^2.2.3"
+hyperliquid-python-sdk = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
