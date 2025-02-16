@@ -53,7 +53,7 @@ Example:
 ```bash
 poetry run python fracscore.py 0xbf8802002d394f6f53d1c5a5cc500fd8dfa3b7c8
 ```
-📌 **Output Example:**
+**Output Example:**
 ```
 Wallet: 0xbf8802002d394f6f53d1c5a5cc500fd8dfa3b7c8
 FRAC Loyalty Score: 1250
@@ -99,13 +99,13 @@ rm -rf fracscore
 
 ## **7. Troubleshooting**
 **Q: I get `ModuleNotFoundError`?**  
-👉 Run `poetry install` to ensure dependencies are installed.
+Run `poetry install` to ensure dependencies are installed.
 
 **Q: How do I exit the Poetry virtual environment?**  
-👉 Run `exit` or close the terminal.
+Run `exit` or close the terminal.
 
 **Q: I want to run Python commands inside the environment**  
-👉 Use `poetry shell` and then `python`.
+Use `poetry shell` and then `python`.
 
 ## **8. Contributing**
 Pull requests are welcome! Open an issue for any feature suggestions.
